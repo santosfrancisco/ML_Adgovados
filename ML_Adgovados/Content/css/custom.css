@@ -1,0 +1,109 @@
+body {
+  padding-top: 0px;
+}
+.btn-ml {border-radius:30px; border:1px solid #808080}
+.card {border-color: #fff;   margin-bottom: 1.5rem !important;}
+.text-ml {color:#D3AC68 !important;}
+
+.top {margin-top:10px ;height: 40px !important;}
+.top-text {
+    font-size: 12px !important;
+    color: #777777;
+}
+.content {
+    margin-left:10px;}
+.header-text {padding:25px 0 25px 0px !important; background-color:#fff;}
+
+.header-container {padding:30px 0 30px 0 !important; background-color:#D3AC68; color: #fff }
+
+.navbar {margin-bottom:0px;}
+.navbar-nav > li > a {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  line-height: 20px;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.container {
+  width:90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar-brand {
+  padding: 0 !important;
+}
+.fa {
+    font-size: 16px !important;
+    color: #777777;
+}
+
+
+footer .footer-above {
+    background-color:#fff !important;
+    color: #777777 !important;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    /*margin-right:-4px;*/
+}
+
+@media only screen 
+and (min-device-width : 768px)  { 
+body {font-size:15px}
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+}
+
+@media (max-width: 991px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
