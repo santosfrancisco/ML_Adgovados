@@ -1,11 +1,11 @@
 ﻿
 @{
-    ViewBag.Title = "AreaDetalhe";
+    ViewBag.Title = "SocioDetalhe";
 }
 
-<header style="margin-bottom:50px">
-    <div class="container header-container">
-        <h3 class="text-left">Áreas de atuação</h3>
+<header class="header-container" style="margin-bottom:50px">
+    <div class="container" style="padding-left:0">
+        <h2 class="text-left">Sócios</h2>
     </div>
 </header>
 
@@ -14,9 +14,20 @@
         <div class="col-md-12 col-centered">
             <div class="card">
                 <div class="card-text">
-                    <h4 class="card-title text-ml header-text">
-                        <i class="fa fa-briefcase text-ml" aria-hidden="true"></i> Trabalhista
-                    </h4>
+
+                    <div class="card-title vertical-align col-centered">
+                        <div class="col-md-4 col-sm-12">
+                            <img src="~/Content/images/avatar.jpg" class="img-circle img-responsive header-text" />
+                        </div>
+                        <div class="card-text col-md-8 col-sm-12 headehr-text">
+                            <h4 class="center">
+                                Nome advogado<br />
+                                <small>especialização</small>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <hr class="ml-margin" />
                     <div class="card-text">
                         <p class="top-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -45,31 +56,23 @@
                         <p class="top-text">
                             <span>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br />
                             <span>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br />
-                            <span>- Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</span><br />
+                            <span>
+                                - Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </span><br />
                             <span>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br />
                         </p>
                     </div>
-                    <hr class="text-ml" />
                     <div class="row row-centered left">
-                        <div class="col-md-2 col-sm-12 col-centered align-middle">
-                            <img src="~/Content/images/avatar.jpg" class="img-circle img-responsive" />
-                        </div>
-                        <div class="col-md-10 col-sm-12 col-centered align-middle">
-                            <p class="card-text">
-                                <h5>Nome advogado</h5>
-                                <h6 class="top-text">especialização</h6>
-                            </p>
-                        </div>
-
                         <div class="navbar-left" style="margin-top:30px">
-                            <a class="btn btn-default text-ml btn-ml" href="~/Home/Areas"><i class="fa fa-long-arrow-left text-ml"></i> VOLTAR</a>
+                            <a class="btn btn-default text-ml btn-ml" href="~/Home/Socios"><i class="fa fa-long-arrow-left text-ml"></i> VOLTAR</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+</div>
+

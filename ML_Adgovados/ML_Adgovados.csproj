@@ -219,16 +219,16 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Contato.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\QuemSomos.cshtml" />
     <Content Include="Views\Home\Areas.cshtml" />
-    <Content Include="Views\Home\AreaDetalhe.cshtml" />
-    <Content Include="Views\Home\SocioDetalhe.cshtml" />
-    <Content Include="Views\Home\QuemSomos - Copy.cshtml" />
+    <Content Include="Views\Home\Area.cshtml" />
+    <Content Include="Views\Home\Socio.cshtml" />
+    <Content Include="Views\Home\Artigos.cshtml" />
+    <Content Include="Views\Home\Artigo.cshtml" />
+    <Content Include="Views\Home\Noticias.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
