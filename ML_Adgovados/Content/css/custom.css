@@ -1,25 +1,18 @@
 body {
     padding-top: 0px;
+    padding-bottom:0px;
     font-family: 'Roboto', sans-serif !important;
 }
 .img-circle {max-width:120px}
-.vertical-align {
-    display: flex;
-    flex-direction: row;
+.row-center {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
-    .vertical-align > [class^="col-"],
-    .vertical-align > [class*=" col-"] {
-        /*display: flex;*/
-        align-items: center;
-    }
-
-        .vertical-align > [class^="col-"] > div,
-        .vertical-align > [class*=" col-"] > div {
-            /* flex: 1; */
-            flex-grow: 1;
-        }
-
+.row-text {padding: 50px 40px 50px 40px !important;}
 .btn-ml {
     border-radius: 30px;
     border: 1px solid #808080;
@@ -35,7 +28,7 @@ body {
 }
 
 .top {
-    margin-top: 10px;
+    padding-top: 10px;
     height: 40px !important;
 }
 
